@@ -112,7 +112,7 @@ public class MedicineDetailsClass extends AppCompatActivity {
         }
 
 
-   brandname.setText(medicinelistdata.get(postion).getBrandname());
+  // brandname.setText(medicinelistdata.get(postion).getBrandname());
 
 
 
