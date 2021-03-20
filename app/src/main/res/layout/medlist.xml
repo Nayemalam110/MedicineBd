@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:padding="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="1dp"
+            >
+            <ImageView
+
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:id="@+id/imgid"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:weightSum="3"
+            android:orientation="vertical"
+            android:padding="1dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:padding="1dp"
+
+
+                >
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:hint="name"
+                    android:id="@+id/nameid"
+                    android:textStyle="bold"
+
+
+                    />
+
+                <TextView
+                    android:paddingHorizontal="5dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="size"
+
+                    android:id="@+id/sizeid"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="1dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/formid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Form" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="1dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Genetic"
+                    android:id="@+id/genid"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

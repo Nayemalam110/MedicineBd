@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MedicineDetailsClass"
+    android:orientation="vertical"
+    android:weightSum="5"
+
+    >
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:layout_marginBottom="3dp"
+    android:paddingLeft="5dp"
+    android:background="#000000"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:id="@+id/mednameid"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceLarge"
+
+            />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/strid"
+            android:paddingTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="size"
+            android:paddingLeft="10dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Genetic"
+            android:id="@+id/gennameid"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/formid"
+                android:hint="form"
+                android:textAppearance="?android:textAppearanceLarge"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Packsize"
+                android:textColor="#ffffff"
+                android:id="@+id/packsizeid"
+                android:paddingLeft="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:textColor="#ffffff"
+            android:paddingTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="price"
+            android:id="@+id/priceid"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taka"
+            android:textColor="#ffffff"
+            android:paddingTop="3dp"
+            />
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+<!--<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+
+    android:textAppearance="?android:textAppearanceLarge"
+
+    android:textColor="#ffffff"
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#ffffff"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#ffffff"
+
+        />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/comnameid"
+            android:textColor="#ffffff"
+            android:hint="Company"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+    </LinearLayout>
+</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=" 4"
+
+        >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#CBE2E2EF"
+        android:layout_marginRight="7.5dp"
+        android:layout_marginLeft="7.5dp"
+
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="2.5dp"
+        android:layout_marginRight="2.5dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="2.5dp"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uses"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+        <TextView
+
+            android:id="@+id/useid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="2dp"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="2.5dp"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not uses"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="2dp"
+            />
+        <TextView
+
+            android:id="@+id/notuseid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="2dp"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Side effects"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sideeffctid"
+            android:padding="2dp"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precautions &amp; warning"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/preid"
+            android:padding="2dp"
+            />
+        </LinearLayout>
+       <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pack Size And Unit Price"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="2dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PackSize:"
+                    android:padding="2dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="2dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price:"
+                    android:padding="2dp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="2dp"
+                    android:layout_marginBottom="5dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        </LinearLayout>-->
+
+
+
+
+
+    </LinearLayout>
+
+
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Drug nggasdaeraw"
+                android:textAlignment="?android:textAppearanceLarge"
+                android:textStyle="bold"
+                android:padding="2dp"
+                />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Uses"
+                        android:padding="2dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Details "
+                        android:padding="2dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>-->
+
+
+
+
+
+
+
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/formid"
+        android:textSize="20dp"
+        android:hint="Something"
+        />-->
+<!--    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/strenghtid"
+        android:textSize="20dp"
+        android:hint="Something"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prizeid"
+        android:textSize="20dp"
+        android:hint="Something"
+        />-->
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
